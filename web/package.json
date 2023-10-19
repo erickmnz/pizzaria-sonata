@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx waltz-build -m serve",
+    "build": "npx waltz-build -m build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "waltz-ui": "latest",
+    "@waltz-ui/i18n-ptbr": "latest",
+    "waltz-tailwind-layout": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "sass": "^1.65.1",
+    "tailwindcss": "^3.3.3",
+    "waltz-build": "latest"
+  }
+}
